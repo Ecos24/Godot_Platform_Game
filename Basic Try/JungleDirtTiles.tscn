@@ -1,0 +1,171 @@
+[gd_scene load_steps=3 format=2]
+
+[ext_resource path="res://Sprites/Tiles/JungleDirtTileSet.png" type="Texture" id=1]
+
+[sub_resource type="RectangleShape2D" id=1]
+extents = Vector2( 16, 16 )
+
+[node name="JungleDirtTiles" type="Node"]
+editor/display_folded = true
+
+[node name="Tile0" type="Sprite" parent="."]
+editor/display_folded = true
+texture = ExtResource( 1 )
+centered = false
+region_enabled = true
+region_rect = Rect2( 0, 96, 32, 32 )
+__meta__ = {
+"_edit_group_": true
+}
+
+[node name="TileStaticBody" type="StaticBody2D" parent="Tile0"]
+
+[node name="TileCollisionShape" type="CollisionShape2D" parent="Tile0/TileStaticBody"]
+visible = false
+position = Vector2( 16, 16 )
+shape = SubResource( 1 )
+
+[node name="Tile1" type="Sprite" parent="."]
+editor/display_folded = true
+position = Vector2( 64, 0 )
+texture = ExtResource( 1 )
+centered = false
+region_enabled = true
+region_rect = Rect2( 32, 96, 32, 32 )
+__meta__ = {
+"_edit_group_": true
+}
+
+[node name="TileStaticBody" type="StaticBody2D" parent="Tile1"]
+
+[node name="TileCollisionShape" type="CollisionShape2D" parent="Tile1/TileStaticBody"]
+visible = false
+position = Vector2( 16, 16 )
+shape = SubResource( 1 )
+
+[node name="Tile2" type="Sprite" parent="."]
+editor/display_folded = true
+position = Vector2( 128, 0 )
+texture = ExtResource( 1 )
+centered = false
+region_enabled = true
+region_rect = Rect2( 64, 96, 32, 32 )
+__meta__ = {
+"_edit_group_": true
+}
+
+[node name="TileStaticBody" type="StaticBody2D" parent="Tile2"]
+
+[node name="TileCollisionShape" type="CollisionShape2D" parent="Tile2/TileStaticBody"]
+visible = false
+position = Vector2( 16, 16 )
+shape = SubResource( 1 )
+
+[node name="Tile3" type="Sprite" parent="."]
+editor/display_folded = true
+position = Vector2( 0, 64 )
+texture = ExtResource( 1 )
+centered = false
+region_enabled = true
+region_rect = Rect2( 64, 160, 32, 32 )
+__meta__ = {
+"_edit_group_": true
+}
+
+[node name="TileStaticBody" type="StaticBody2D" parent="Tile3"]
+
+[node name="TileCollisionShape" type="CollisionShape2D" parent="Tile3/TileStaticBody"]
+visible = false
+position = Vector2( 16, 16 )
+shape = SubResource( 1 )
+
+[node name="Tile4" type="Sprite" parent="."]
+editor/display_folded = true
+position = Vector2( 64, 64 )
+texture = ExtResource( 1 )
+centered = false
+region_enabled = true
+region_rect = Rect2( 160, 160, 32, 32 )
+__meta__ = {
+"_edit_group_": true
+}
+
+[node name="TileStaticBody" type="StaticBody2D" parent="Tile4"]
+
+[node name="TileCollisionShape" type="CollisionShape2D" parent="Tile4/TileStaticBody"]
+visible = false
+position = Vector2( 16, 16 )
+shape = SubResource( 1 )
+
+[node name="Tile5" type="Sprite" parent="."]
+editor/display_folded = true
+position = Vector2( 128, 64 )
+texture = ExtResource( 1 )
+centered = false
+region_enabled = true
+region_rect = Rect2( 96, 160, 32, 32 )
+__meta__ = {
+"_edit_group_": true
+}
+
+[node name="TileStaticBody" type="StaticBody2D" parent="Tile5"]
+
+[node name="TileCollisionShape" type="CollisionShape2D" parent="Tile5/TileStaticBody"]
+visible = false
+position = Vector2( 16, 16 )
+shape = SubResource( 1 )
+
+[node name="Tile6" type="Sprite" parent="."]
+editor/display_folded = true
+position = Vector2( 0, 128 )
+texture = ExtResource( 1 )
+centered = false
+region_enabled = true
+region_rect = Rect2( 96, 0, 32, 32 )
+__meta__ = {
+"_edit_group_": true
+}
+
+[node name="TileStaticBody" type="StaticBody2D" parent="Tile6"]
+
+[node name="TileCollisionShape" type="CollisionShape2D" parent="Tile6/TileStaticBody"]
+visible = false
+position = Vector2( 16, 16 )
+shape = SubResource( 1 )
+
+[node name="Tile7" type="Sprite" parent="."]
+editor/display_folded = true
+position = Vector2( 64, 128 )
+texture = ExtResource( 1 )
+centered = false
+region_enabled = true
+region_rect = Rect2( 128, 0, 32, 32 )
+__meta__ = {
+"_edit_group_": true
+}
+
+[node name="TileStaticBody" type="StaticBody2D" parent="Tile7"]
+
+[node name="TileCollisionShape" type="CollisionShape2D" parent="Tile7/TileStaticBody"]
+visible = false
+position = Vector2( 16, 16 )
+shape = SubResource( 1 )
+
+[node name="Tile8" type="Sprite" parent="."]
+editor/display_folded = true
+position = Vector2( 128, 128 )
+texture = ExtResource( 1 )
+centered = false
+region_enabled = true
+region_rect = Rect2( 160, 0, 32, 32 )
+__meta__ = {
+"_edit_group_": true
+}
+
+[node name="TileStaticBody" type="StaticBody2D" parent="Tile8"]
+
+[node name="TileCollisionShape" type="CollisionShape2D" parent="Tile8/TileStaticBody"]
+visible = false
+position = Vector2( 16, 16 )
+shape = SubResource( 1 )
+
