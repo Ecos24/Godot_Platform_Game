@@ -1,5 +1,5 @@
 # Godot Platform Game
-Basic 2D Game
+# Basic 2D Game
 Include Sprites from - http://www.openpixelproject.com
 This project gives introduction to following:
   1)  Basic Scene making
